@@ -1,0 +1,137 @@
+/* -------- RESET & BASE -------- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0e0e0e;
+  color: #eaeaea;
+  line-height: 1.6;
+}
+
+/* -------- NAVBAR -------- */
+nav {
+  background-color: #121212;
+  padding: 15px 25px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  border-bottom: 2px solid #1f1f1f;
+}
+
+nav a {
+  color: #eaeaea;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #ff4c4c;
+}
+
+/* -------- MAIN CONTENT -------- */
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+/* -------- HEADINGS -------- */
+h1 {
+  margin-top: 0;
+  font-size: 2.2rem;
+  color: #ff4c4c;
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 1.4rem;
+  color: #ffffff;
+}
+
+/* -------- TEXT -------- */
+p {
+  color: #cccccc;
+}
+
+/* -------- BUTTONS -------- */
+button,
+.discord-btn {
+  background-color: #5865f2;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+button:hover,
+.discord-btn:hover {
+  opacity: 0.9;
+  transform: scale(1.03);
+}
+
+/* -------- INPUTS -------- */
+input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  margin-right: 8px;
+  outline: none;
+}
+
+/* -------- LEADERBOARD TABLE -------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #1a1a1a;
+  color: #ff4c4c;
+}
+
+tr {
+  border-bottom: 1px solid #1f1f1f;
+}
+
+tr:hover {
+  background-color: #1a1a1a;
+  cursor: pointer;
+}
+
+/* -------- PLAYER AVATAR -------- */
+.avatar {
+  border-radius: 6px;
+}
+
+/* -------- CARD / BOX -------- */
+.card {
+  background-color: #151515;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 1px solid #1f1f1f;
+}
+
+/* -------- FOOTER (OPTIONAL) -------- */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+  font-size: 0.9rem;
+}
